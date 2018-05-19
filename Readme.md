@@ -1,0 +1,95 @@
+# How to implement a Theme Selector control similar to DevExpress Demo
+
+
+<p>The sample provides two web user controls (ThemeSelector, ThemeParametersSelector) that can be used in your project. To use these controls in your solution, execute these steps:</p>
+<p>1. Copy the following files, taking into account their location:</p>
+<p>   a. An xml file with theme groups and themes: Themes.xml;<br>   b. Classes that are responsible for getting and presenting data from Themes.xml: ThemeGroupModel.cs, ThemeModel.cs, ThemeModelBase.cs, ThemesModel.cs;<br>   c. sprite.svg with images;<br>   d. sprite.css and StyleSheet.css with CSS classes;<br>   e. Script.js with client-side methods;   <br>   f. ThemeSelector.ascx, ThemeSelector.ascx.cs, ThemeParametersSelector.ascx and ThemeParametersSelector.ascx.cs;<br>   g. Utils.cs - a class that is responsible for manipulations with themes.</p>
+<p>2. Register the ThemeSelector and ThemeParametersSelector web user controls in your web.config file:</p>
+
+
+```aspx
+<pages>
+  <controls>
+...
+    <add src="~/UserControl/ThemeParametersSelector.ascx" tagName="ThemeParametersSelector" tagPrefix="dx" />
+    <add src="~/UserControl/ThemeSelector.ascx" tagName="ThemeSelector" tagPrefix="dx" />
+  </controls>
+</pages>
+```
+
+
+<p>3. In the sample, a chosen theme is written to a cookie. To apply this theme from the cookie, subscribe to the Application.PreRequestHandlerExecute event in your Global.asax file and handle it in the following manner:</p>
+
+
+```cs
+protected void Application_PreRequestHandlerExecute(object sender, EventArgs e) {
+    DevExpress.Web.ASPxWebControl.GlobalTheme = Utils.CurrentTheme;
+    Utils.ResolveThemeParametes();
+}
+```
+
+
+<p>4. Add the ThemeSelector and ThemeParametersSelector user controls to ASPxPanel of the master page:</p>
+
+
+```aspx
+    <form id="form1" runat="server">
+        <header>
+            <dx:ASPxPanel runat="server" ClientInstanceName="TopPanel" CssClass="header-panel" FixedPosition="WindowTop" EnableTheming="false">
+                <PanelCollection>
+                    <dx:PanelContent>
+                        <a class="right-button icon cog right-button-toggle-themes-panel" href="javascript:void(0)" onclick="DXDemo.toggleThemeSettingsPanel(); return false;"></a>
+                    </dx:PanelContent>
+                </PanelCollection>
+            </dx:ASPxPanel>
+        </header>
+        <div class="main-content-wrapper">
+            <section class="top-panel clearfix top-panel-dark">
+                <dx:ASPxButton runat="server" Text="Change Theme Settings" CssClass="theme-settings-menu-button adaptive"
+                    EnableTheming="false" AutoPostBack="false" ImagePosition="Right" UseSubmitBehavior="false">
+                    <Image SpriteProperties-CssClass="icon angle-down theme-settings-menu-button-image" />
+                    <FocusRectBorder BorderWidth="0" />
+                    <ClientSideEvents Click="DXDemo.toggleThemeSettingsPanel" />
+                </dx:ASPxButton>
+            </section>
+            <dx:ASPxPanel runat="server" ClientInstanceName="ThemeSettingsPanel" CssClass="theme-settings-panel"
+                FixedPosition="WindowRight" Collapsible="true" EnableTheming="false" ScrollBars="Auto">
+                <SettingsCollapsing AnimationType="Slide" ExpandEffect="PopupToLeft" ExpandButton-Visible="false" />
+                <Styles>
+                    <ExpandBar Width="0" />
+                    <ExpandedPanel CssClass="theme-settings-panel-expanded"></ExpandedPanel>
+                </Styles>
+                <PanelCollection>
+                    <dx:PanelContent>
+                        <div class="top-panel top-panel-dark clearfix">
+                            <dx:ASPxButton runat="server" Text="Change Theme Settings" CssClass="theme-settings-menu-button"
+                                EnableTheming="false" AutoPostBack="false" ImagePosition="Right" HorizontalAlign="Left" UseSubmitBehavior="false">
+                                <Image SpriteProperties-CssClass="icon angle-down theme-settings-menu-button-image" />
+                                <FocusRectBorder BorderWidth="0" />
+                                <ClientSideEvents Click="DXDemo.toggleThemeSettingsPanel" />
+                            </dx:ASPxButton>
+                        </div>
+                        <div class="theme-settings-panel-content">
+                            <dx:ThemeSelector ID="ThemeSelector" runat="server" />
+                            <% if(Utils.CanApplyThemeParameters) { %>
+                            <dx:ThemeParametersSelector ID="ThemeParametersSelector" runat="server" />
+                            <% } %>
+                        </div>
+                    </dx:PanelContent>
+                </PanelCollection>
+            </dx:ASPxPanel>
+        </div>
+        <div style="clear: both;">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+
+```
+
+
+<p><strong>See also:</strong><br><a href="https://www.devexpress.com/Support/Center/p/T504407">How to implement a Theme Selector control similar to DevExpress Demo ThemeSelector web user control</a></p>
+
+<br/>
+
+

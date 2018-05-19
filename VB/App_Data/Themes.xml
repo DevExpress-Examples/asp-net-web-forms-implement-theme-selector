@@ -1,0 +1,35 @@
+<Themes>
+  <ThemeGroup Title="Defaults" Name="Defaults" Float="Left">
+    <Theme Title="Default" Name="" PreveiwColor="#DCDCDC"></Theme>
+    <Theme Title="DevExpress Style" Name="DevEx" FontSize="11px" FontFamily="Verdana, Geneva, sans-serif" PreveiwColor="#CDCCF5"></Theme>
+    <Theme Title="Metropolis" Name="Metropolis" BaseColor="#FF8800" FontSize="12px" FontFamily="'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif" ShowAsTop="true" PreveiwColor="#7F7F7F"></Theme>
+    <Theme Title="Metropolis Blue" Name="MetropolisBlue" BaseColor="#0072C6" FontSize="12px" FontFamily="'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif" PreveiwColor="#0072C6"></Theme>
+  </ThemeGroup>
+  <ThemeGroup Title="Mobile" Name="Mobile" Float="Right">
+    <Theme Title="Moderno" Name="Moderno" BaseColor="#1279c0" FontSize="14px" FontFamily="'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif" ShowAsTop="true" PreveiwColor="#1279c0"></Theme>
+    <Theme Title="iOS" Name="iOS" BaseColor="#007BF7" FontSize="14px" FontFamily="'Segoe UI', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif" ShowAsTop="true" PreveiwColor="#007BF7"></Theme>
+    <Theme Title="Material" Name="Material" BaseColor="#009688" FontSize="14px" FontFamily="'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif" ShowAsTop="true" PreveiwColor="#009688"></Theme>
+    <Theme Title="Material Compact" Name="MaterialCompact" BaseColor="#35B86B" FontSize="12px" FontFamily="'Roboto Regular', Helvetica, 'Droid Sans', Tahoma, Geneva, sans-serif" ShowAsTop="true" PreveiwColor="#35B86B"></Theme>
+    <Theme Title="Office 365" IsNew="true" Name="Office365" BaseColor="#F87C1D" FontSize="12px" FontFamily="'Segoe UI'" ShowAsTop="true" PreveiwColor="#F87C1D"></Theme>
+  </ThemeGroup>
+  <ThemeGroup Title="Misc" Name="Misc" Float="Right">
+    <Theme Title="Aqua" Name="Aqua" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#96B9EC"></Theme>
+    <Theme Title="Black Glass" Name="BlackGlass" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#4D5A63"></Theme>
+    <Theme Title="Glass" Name="Glass" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#C8DDE8"></Theme>
+    <Theme Title="Mulberry" Name="Mulberry" BaseColor="#BF4E6A" FontSize="14px" FontFamily="'Segoe UI','Helvetica Neue','Droid Sans',Arial,Tahoma,Geneva,Sans-serif" ShowAsTop="true" PreveiwColor="#BF4E6A"></Theme>
+    <Theme Title="Plastic Blue" Name="PlasticBlue" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#5066B3"></Theme>
+    <Theme Title="Red Wine" Name="RedWine" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#8A0E3C"></Theme>
+    <Theme Title="Soft Orange" Name="SoftOrange" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#F06F30"></Theme>
+    <Theme Title="Youthful" Name="Youthful" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif"  PreveiwColor="#9CC524"></Theme>
+  </ThemeGroup>
+  <ThemeGroup Title="Office 2010" Name="Office2010" Float="Left">
+    <Theme Title="Office 2010 Blue" Name="Office2010Blue" FontSize="11px" FontFamily="Verdana, Geneva, sans-serif" PreveiwColor="#B5CCE5"></Theme>
+    <Theme Title="Office 2010 Black" Name="Office2010Black" FontSize="11px" FontFamily="Verdana, Geneva, sans-serif" PreveiwColor="#474747"></Theme>
+    <Theme Title="Office 2010 Silver" Name="Office2010Silver" FontSize="11px" FontFamily="Verdana, Geneva, sans-serif" PreveiwColor="#E7EAEF"></Theme>
+  </ThemeGroup>
+  <ThemeGroup Title="Office 2003" Name="Office2003" Float="Left">
+    <Theme Title="Office 2003 Blue" Name="Office2003Blue" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif" PreveiwColor="#B5CEF2"></Theme>
+    <Theme Title="Office 2003 Olive" Name="Office2003Olive" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif" PreveiwColor="#D4DEB6"></Theme>
+    <Theme Title="Office 2003 Silver" Name="Office2003Silver" FontSize="12px" FontFamily="Tahoma, Geneva, sans-serif" PreveiwColor="#D1D1E0"></Theme>
+  </ThemeGroup>
+</Themes>
