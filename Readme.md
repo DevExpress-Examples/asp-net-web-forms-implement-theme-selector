@@ -6,15 +6,15 @@
 * [ThemeModelBase.cs](./CS/App_Code/ThemeModelBase.cs) (VB: [ThemeModelBase.vb](./VB/App_Code/ThemeModelBase.vb))
 * [ThemesModel.cs](./CS/App_Code/ThemesModel.cs) (VB: [ThemesModel.vb](./VB/App_Code/ThemesModel.vb))
 * [Utils.cs](./CS/App_Code/Utils.cs) (VB: [Utils.vb](./VB/App_Code/Utils.vb))
-* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
+* [Default.aspx](./CS/Default.aspx) (VB: [Default.aspx](./VB/Default.aspx))
 * [Default.aspx.cs](./CS/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/Default.aspx.vb))
 * [Global.asax](./CS/Global.asax) (VB: [Global.asax](./VB/Global.asax))
 * [MasterPage.master.cs](./CS/MasterPage.master.cs) (VB: [MasterPage.master.vb](./VB/MasterPage.master.vb))
 * [Script.js](./CS/ScriptsAndStyles/Script.js) (VB: [Script.js](./VB/ScriptsAndStyles/Script.js))
 * [ThemeParametersSelector.ascx](./CS/UserControl/ThemeParametersSelector.ascx) (VB: [ThemeParametersSelector.ascx](./VB/UserControl/ThemeParametersSelector.ascx))
-* [ThemeParametersSelector.ascx.cs](./CS/UserControl/ThemeParametersSelector.ascx.cs) (VB: [ThemeParametersSelector.ascx](./VB/UserControl/ThemeParametersSelector.ascx))
+* [ThemeParametersSelector.ascx.cs](./CS/UserControl/ThemeParametersSelector.ascx.cs) (VB: [ThemeParametersSelector.ascx.vb](./VB/UserControl/ThemeParametersSelector.ascx.vb))
 * [ThemeSelector.ascx](./CS/UserControl/ThemeSelector.ascx) (VB: [ThemeSelector.ascx](./VB/UserControl/ThemeSelector.ascx))
-* [ThemeSelector.ascx.cs](./CS/UserControl/ThemeSelector.ascx.cs) (VB: [ThemeSelector.ascx](./VB/UserControl/ThemeSelector.ascx))
+* [ThemeSelector.ascx.cs](./CS/UserControl/ThemeSelector.ascx.cs) (VB: [ThemeSelector.ascx.vb](./VB/UserControl/ThemeSelector.ascx.vb))
 <!-- default file list end -->
 # How to implement a Theme Selector control similar to DevExpress Demo
 
