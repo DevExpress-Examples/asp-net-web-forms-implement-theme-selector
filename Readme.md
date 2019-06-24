@@ -17,6 +17,9 @@
 * [ThemeSelector.ascx.cs](./CS/UserControl/ThemeSelector.ascx.cs) (VB: [ThemeSelector.ascx.vb](./VB/UserControl/ThemeSelector.ascx.vb))
 <!-- default file list end -->
 # How to implement a Theme Selector control similar to DevExpress Demo
+<!-- run online -->
+**[[Run Online]](https://codecentral.devexpress.com/t590818/)**
+<!-- run online end -->
 
 
 <p>The sample provides two web user controls (ThemeSelector, ThemeParametersSelector) that can be used in your project. To use these controls in your solution, execute these steps:</p>
