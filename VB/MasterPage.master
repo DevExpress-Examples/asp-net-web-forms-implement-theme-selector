@@ -10,9 +10,9 @@
     <title>How to use ThemeSelector</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <script src="ScriptsAndStyles/Script.js")" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="~/ScriptsAndStyles/StyleSheet.css" />
-    <link rel="stylesheet" type="text/css" href="~/ScriptsAndStyles/sprite.css" />
+    <script src="Scripts/Script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="~/Styles/StyleSheet.css" />
+    <link rel="stylesheet" type="text/css" href="~/Styles/sprite.css" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
