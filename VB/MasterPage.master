@@ -56,11 +56,11 @@
                         <div class="theme-settings-panel-content">
                             <dx:ThemeSelector ID="ThemeSelector" runat="server" />
                             <%
-							If Utils.CanApplyThemeParameters Then
+                            If Utils.CanApplyThemeParameters Then
                             %>
                             <dx:ThemeParametersSelector ID="ThemeParametersSelector" runat="server" />
                             <%
-							End If
+                            End If
                             %>
                         </div>
                     </dx:PanelContent>

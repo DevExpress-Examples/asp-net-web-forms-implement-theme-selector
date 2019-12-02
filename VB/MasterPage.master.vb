@@ -7,6 +7,6 @@ Imports System.Web.UI
 Imports System.Web.UI.WebControls
 
 Partial Public Class MasterPage
-	Inherits System.Web.UI.MasterPage
+    Inherits System.Web.UI.MasterPage
 
 End Class
