@@ -109,7 +109,7 @@ protected void Application_PreRequestHandlerExecute(object sender, EventArgs e) 
 ```
 
 
-<p><strong>See also:</strong><br><a href="https://www.devexpress.com/Support/Center/p/T504407">How to implement a Theme Selector control similar to DevExpress Demo ThemeSelector web user control</a></p>
+<p><strong>See also:</strong><br><a href="https://supportcenter.devexpress.com/ticket/details/t504407/how-to-implement-a-theme-selector-control-similar-to-devexpress-demo-old-style">How to implement a Theme Selector control similar to DevExpress Demo (Old Style)</a></p>
 
 <br/>
 
