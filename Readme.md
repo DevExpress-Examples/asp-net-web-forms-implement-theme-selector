@@ -15,7 +15,7 @@ This example demonstrates how to implement a Theme Selector control as in [ASP.N
 
 ## Overview
 
-Follow the steps below to allow users to implement a theme selector:
+Follow the steps below to implement a theme selector:
 
 1. Copy files from the folders listed below to the corresponding folders in your application.
 
