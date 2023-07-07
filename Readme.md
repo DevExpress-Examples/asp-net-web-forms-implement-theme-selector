@@ -46,7 +46,7 @@ Follow the steps below to implement a theme selector:
    }
    ```
 
-4. In the master page, add **ThemeSelector** and **ThemeParametersSelector** controls as follows:
+4. In the [master page](./CS/MasterPage.master, add **ThemeSelector** and **ThemeParametersSelector** controls as follows:
 
    ```aspx
    <form id="form1" runat="server">
@@ -54,7 +54,7 @@ Follow the steps below to implement a theme selector:
            <dx:ASPxPanel runat="server" ClientInstanceName="TopPanel" CssClass="header-panel" FixedPosition="WindowTop" EnableTheming="false">
                <PanelCollection>
                    <dx:PanelContent>
-                       <a class="right-button icon cog right-button-toggle-themes-panel" href="javascript:void(0)" onclick="DXDemo.toggleThemeSettingsPanel(); return false;"></a>
+                       <a class="right-button icon cog right-button-toggle-themes-panel" onclick="DXDemo.toggleThemeSettingsPanel(); return false;"></a>
                    </dx:PanelContent>
                </PanelCollection>
            </dx:ASPxPanel>
