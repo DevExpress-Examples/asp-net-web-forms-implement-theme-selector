@@ -3,12 +3,12 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 <!-- default file list -->
-# ASP.NET Web Forms Controls - How to implement a Theme Selector control shown in DevExpress Demos
+# ASP.NET Web Forms Controls - How to implement the Theme Selector control shown in DevExpress Demos
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t590818/)**
 <!-- run online end -->
 
-This example demonstrates how to implement a Theme Selector control as in [ASP.NET Web Forms Demos](https://demos.devexpress.com/ASP/). 
+This example demonstrates how to implement the Theme Selector control as shown in [ASP.NET Web Forms Demos](https://demos.devexpress.com/ASP/). 
 
 ![Theme Selector](image.png)
 
@@ -36,7 +36,7 @@ Follow the steps below to implement a theme selector:
    </pages>
    ```
 
-3. Once the user selects a theme, the code example writes the theme to cookies. To apply this theme, handle the `Application.PreRequestHandlerExecute` event in the *Global.asax* file as follows:
+3. Once a user selects a theme, the code example writes that theme to cookies [writes to cookies???]. To apply this theme, handle the `Application.PreRequestHandlerExecute` event in the *Global.asax* file as follows:
 
    ```cs
    protected void Application_PreRequestHandlerExecute(object sender, EventArgs e) {
@@ -119,7 +119,7 @@ Follow the steps below to implement a theme selector:
 
 ## More Examples
 
-* [How to implement a Theme Selector control shown in DevExpress Demo (Old Style)](https://github.com/DevExpress-Examples/how-to-implement-a-theme-selector-control-similar-to-devexpress-demo-old-style-t504407)
+* [How to implement the Theme Selector control shown in the DevExpress Demo (Old Style)](https://github.com/DevExpress-Examples/how-to-implement-a-theme-selector-control-similar-to-devexpress-demo-old-style-t504407)
 
 
 
